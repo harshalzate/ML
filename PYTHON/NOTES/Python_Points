@@ -1,3 +1,4 @@
 In class when you create a variable in the function then you don't have to specify the self. Only specify self for variable in the constructor and calling differerent functions. 
 You have different magical methods whose magic lies in what you do the objects. like print when pass object to the print then by automataically __str__ method will be called and it will
-retured the __str__ method(Function). 
+retured the __str__ method(Function). Similarly for the addition and division, multiplication where you specify the "+" between the two objects and specifically you have to mentioned other
+object along with self in the method defination of addition, division etc.
