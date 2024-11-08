@@ -3,3 +3,20 @@ You have different magical methods whose magic lies in what you do the objects. 
 retured the __str__ method(Function). Similarly for the addition and division, multiplication where you specify the "+" between the two objects and specifically you have to mentioned other
 object along with self in the method defination of addition, division etc.
 Different magic methods are __str__ for print, __mul__ for multiplication, __add__ for addition and __trudiv__ for division 
+
+class A:
+  def __init__(self):
+    self.a='harhal'
+
+
+  t=5
+  def m(self):
+    y= self.t + 6
+    return y  
+aa=A()
+aa.a
+aa.t
+aa.m() 
+
+Very very important example for understanding the fact that you can create attribute anywhere without self and can can access the attibute anywhere with self but not needed to be specified
+with self. Only the attibutes in init and otherones specified outside of the functions can be acccessed by the object outside.
