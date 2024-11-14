@@ -20,3 +20,6 @@ aa.m()
 
 Very very important example for understanding the fact that you can create attribute anywhere without self and can can access the attibute anywhere with self but not needed to be specified
 with self. Only the attibutes in init and otherones specified outside of the functions can be acccessed by the object outside.
+
+
+## File Reading: Readlines reads the file line by line and return the list of the lines where as when you read by read it return the entire file in one go.
