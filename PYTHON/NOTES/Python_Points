@@ -27,3 +27,8 @@ formats which can be converted to json are mentioned how to store by default.
 nonlocal used like  global but for variables in enclosing function space.
 
 -- staticmethod: Are used to define a method in a class which can be access by class directly and this method does not take object as a input parameter.
+
+
+
+# DataFrame:
+how to add new row , append is depreciated so either directly use df.loc[7] = ['h',49,90]  
